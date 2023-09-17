@@ -1,0 +1,137 @@
+.header__container {
+  padding: 20px 0;
+  background-color: white;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+  justify-content: space-between;
+}
+
+.header__item {
+  margin: auto 0 auto auto;
+}
+
+.header__item li {
+  list-style: none;
+}
+
+.header__item a {
+  text-decoration-line: none;
+  color: black;
+  font-size: 1.1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header__item a:hover {
+  color: blue;
+}
+
+.header__item .flex {
+  gap: 50px;
+}
+
+.header__logo img {
+  width: 140px;
+  height: 32px;
+}
+
+/* Hamburger Menu*/
+.header__sandwich {
+  flex-direction: column;
+  gap: 0px;
+  cursor: pointer;
+  position: fixed;
+  right: 45px;
+  top: 25px;
+  height: 25px;
+  width: 20px;
+  padding: 3px;
+}
+
+.line {
+  width: 20px;
+  border-radius: 20%;
+  height: 3px;
+  background-color: black;
+  transition: all 1s;
+}
+
+.enable #line-off {
+  visibility: hidden;
+  transition: visilibity 100ms;
+}
+
+.enable #line-up,
+.enable #line-down {
+  position: absolute;
+  top: 10px;
+}
+
+.enable #line-up {
+  transform: rotate(45deg) scale(1.2);
+}
+.enable #line-down {
+  transform: rotate(-45deg) scale(1.2);
+}
+
+.close-menu {
+  background-color: rgba(77, 77, 77, 0.055);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 75px;
+  left: 0;
+  backdrop-filter: blur(2px);
+}
+
+.close-menu.disable,
+.close-menu.disable::after {
+  visibility: hidden;
+  transition: all 200ms;
+}
+
+.close-menu.enable {
+  visibility: visible;
+  backdrop-filter: blur(20px);
+}
+
+@media (max-width: 700px) {
+  .enable + .header__item {
+    display: inherit;
+    z-index: 100;
+  }
+
+  .disable + .header__item {
+    display: none;
+  }
+
+  .enable + .header__item > ul {
+    position: fixed;
+    top: 50px;
+    right: 0;
+    background-color: white;
+    padding: 70px;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 700px) {
+  /* Header */
+  .header__sandwich,
+  .close-menu,
+  .close-menu.active {
+    display: none;
+  }
+
+  .header__item {
+    display: inherit;
+  }
+}
+
+@media (max-width: 300px) {
+  .header__sandwich {
+    right: 15px;
+  }
+}

@@ -1,0 +1,15 @@
+.card-label__container {
+  position: absolute;
+  bottom: 70px;
+  color: rgba(255, 255, 255, 0.712);
+  right: 0;
+  padding: 0px;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.795);
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+p {
+  text-align: center;
+}

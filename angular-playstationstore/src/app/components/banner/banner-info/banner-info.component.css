@@ -1,0 +1,23 @@
+.banner__info {
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  width: 400px;
+  right: -75px;
+  padding: 15px 50px;
+  background-color: rgba(0, 0, 0, 0.604);
+}
+
+h1,
+h2 {
+  margin-bottom: 10px;
+}
+
+.flex {
+  align-items: end;
+}
+
+.banner-info__value__money {
+  font-weight: 700;
+  font-size: 1.5rem;
+}

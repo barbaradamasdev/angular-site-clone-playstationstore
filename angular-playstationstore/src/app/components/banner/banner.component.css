@@ -1,0 +1,22 @@
+.banner {
+  position: relative;
+  margin: auto;
+  cursor: pointer;
+}
+
+.banner img {
+  width: 120%;
+  margin-left: -90px;
+  max-width: 1300px;
+  padding: 75px 0 5px;
+  border-radius: 0 10px 10px 0;
+}
+
+img,
+img::after {
+  transition: all 0.8s;
+}
+
+img:hover {
+  transform: scale(1.05);
+}

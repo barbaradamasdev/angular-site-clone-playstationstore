@@ -1,0 +1,38 @@
+.card-price__container {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.712);
+  bottom: 0;
+  left: 0;
+  padding: 5px 10px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.795);
+}
+
+.card-price__content .flex {
+  align-items: center;
+}
+
+.card-price__title {
+  font-weight: 600;
+}
+
+.card-price__value__console {
+  font-size: 0.8rem;
+}
+
+.card-price__value__money {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.card-price__value__console {
+  gap: 5px;
+}
+.card-price__value__console span {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgb(85, 166, 231);
+}
+.card-price__value__console div {
+  opacity: 0.7;
+}

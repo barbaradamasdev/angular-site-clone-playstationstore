@@ -1,0 +1,29 @@
+<header class="header__container">
+  <div class="container flex">
+
+    <div class="header__logo">
+      <a href=""><img src="assets/ps-logo.png" alt=""></a>
+    </div>
+
+
+    <div class="header__sandwich flex" (click)="toogleMenu()" [ngClass]="toogleMenuActive?'disable':'enable'" title="Botão para abrir o menu"> <!-- Hamburguer menu -->
+      <div class="line" id="line-up"></div>
+      <div class="line" id="line-off"></div>
+      <div class="line" id="line-down"></div>
+    </div>
+
+
+    <div class="header__item">
+      <ul class="flex">
+        <li><a target="_blank" href="https://www.linkedin.com/in/barbaradamascenodev">Linkedin</a></li>
+        <li><a target="_blank" href="https://github.com/barbaradamasdev">Github</a></li>
+        <li><a target="_blank" href="https://github.com/barbaradamasdev/angular-site-clone-playstationstore">Repositório</a></li>
+        <li><a target="_blank" href="mailto:barbaradamas.dev@gmail.com">Email</a></li>
+      </ul>
+    </div>
+
+    <div class="close-menu" (click)="toogleMenu()" [ngClass]="toogleMenuActive?'disable':'enable'"></div> <!-- Para fechar menu quando clicar fora (mobile) -->
+
+
+  </div>
+</header>

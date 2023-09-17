@@ -1,0 +1,13 @@
+.card__img,
+.card__img::after {
+  width: 100%;
+  transition: all 0.8s;
+}
+
+.card__img:hover {
+  transform: scale(1.05);
+}
+
+img {
+  height: 100%;
+}
