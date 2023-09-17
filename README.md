@@ -9,9 +9,9 @@ Esse projeto foi realizado para concluir o módulo de Angular do "Santander Boot
 O desafio era recriar uma pagina da PlayStation Store afim de explorar o framework Angular. Inclui um banner e footer para simular uma página mais real, além de pensar no site responsive (Mobile-first).
 
 Para melhor visualização do resultado, inclui o deploy do projeto:
-- [Live version - veja aqui o projeto](https://barbaradamasdev.github.io/angular-blog-clone-globonews/)
+- [Live version - veja aqui o projeto](https://barbaradamasdev.github.io/angular-site-clone-playstationstore/)
 
-<img src="https://media.giphy.com/media/MZ9nZGQn1nqBG/giphy.gif" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></img>
+<img src="https://media.giphy.com/media/MZ9nZGQn1nqBG/giphy.gif" width="240" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></img>
 
 ## 💾 Ferramentas e linguagens
 
