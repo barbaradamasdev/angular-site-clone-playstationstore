@@ -20,7 +20,7 @@ Para melhor visualização do resultado, inclui o deploy do projeto:
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="20" height="20"  /> HTML
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"  width="20" height="20" /> CSS
 
-<img src="" width="65%" object-fit="cover"/>
+<img src="https://github.com/barbaradamasdev/angular-site-clone-playstationstore/blob/main/src/assets/preview.jpg?raw=true" width="65%" object-fit="cover"/>
 
 O projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
 
