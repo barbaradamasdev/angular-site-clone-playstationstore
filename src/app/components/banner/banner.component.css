@@ -2,12 +2,14 @@
   position: relative;
   margin: auto;
   cursor: pointer;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0;
 }
 
 .banner img {
-  width: 120%;
-  margin-left: -90px;
-  max-width: 1300px;
+  width: 100%;
   padding: 75px 0 5px;
   border-radius: 0 10px 10px 0;
 }
@@ -24,7 +26,6 @@ img:hover {
 @media (max-width: 970px) {
   .banner img {
     width: 100vw;
-    margin-left: -70px;
   }
 }
 

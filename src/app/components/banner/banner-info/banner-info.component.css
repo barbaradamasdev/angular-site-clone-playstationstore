@@ -3,7 +3,7 @@
   position: absolute;
   bottom: 50px;
   width: 400px;
-  right: -75px;
+  right: 0;
   padding: 15px 50px;
   background-color: rgba(0, 0, 0, 0.604);
 }
@@ -26,7 +26,6 @@ h2 {
   .banner__info {
     position: inherit;
     margin-top: -10px;
-    margin-left: -50px;
     width: 100vw !important;
     padding: 15px 50px;
   }
